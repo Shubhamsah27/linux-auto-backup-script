@@ -1,14 +1,14 @@
-#  Auto Backup Script (Bash)
+# Linux Auto Backup Script
 
-This Bash script automatically compresses your `Documents/` folder into a `.tar.gz` archive with the current date, and stores it in a backup folder.
+This is a simple Bash script that automatically backs up files or directories into a `.tar.gz` archive.
 
-##  Features
-- Backs up your `~/Documents/` folder
-- Adds date to archive name (e.g., `backup-2025-07-31.tar.gz`)
-- Stores it inside `~/bash-projects/backups/`
-- Easy to run and schedule with cron
+## 🔧 Features
+- Creates timestamped backups
+- Stores backups in a dedicated `backups` folder
+- Easy to configure and extend
 
-##  How to Run
+## 🖥️ How to Use
+
 ```bash
-chmod +x backup.sh
-./backup.sh
+bash auto_backup.sh
+
